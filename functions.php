@@ -18,4 +18,12 @@ function aeg(){
 
 }
 
+function menu(){
+    $files= "array, functions, info";
+    $menu_array= explode(",", $files);
+    for($i=0; $i<count($menu_array);$i++){
+        echo '<li><a href="'.$menu_array[$i].'.php">'.$menu_array[$i].'</a></li>';
+    }
+}
+
 ?>

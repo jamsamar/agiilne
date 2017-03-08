@@ -15,7 +15,7 @@ window.onload = function(){
 <?php 
 
 include "functions.php";//kui kätte ei saa jätkataske täitmist; require peatataske, oncerequire esimesel laadimisel nõutakse
-
+menu();
 //näited muutujatest
 $date = "08.03.2017";
 $number =5;

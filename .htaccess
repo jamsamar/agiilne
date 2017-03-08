@@ -1,0 +1,13 @@
+AuthType Basic
+AuthName "Protected"
+AuthUserFile C:\xampp2\htdocs\agiilne\.htpasswd
+Require valid-user
+
+#keelame ära .html'ide näitamise
+<files "*.html">
+deny from all
+</files>
+
+<files "*.txt">
+deny from all
+</files>
