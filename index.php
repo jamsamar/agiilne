@@ -36,6 +36,8 @@ echo $float + $float1."<br>";
 echo '<div></div>';
 aeg();
 
+getIp();
 
+counter();
 
 ?>
